@@ -1,0 +1,34 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/m04_main_titlemenu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/m04_main_menubar_bg" >
+
+        <ImageButton
+            android:id="@+id/m04_main_Button_returnmain"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/m04_main_menubar_backbtn_xml" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/m04_main_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/m04_main_LinearLayout_ItemList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

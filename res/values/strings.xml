@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Impression</string>
+    <string name="Title">Title</string>
+    <string name="Category">Category</string>
+    <string name="Processing_Please_Wait">Processing..\nPlease Wait..</string>
+    <string name="Intializing">Intializing....</string>
+    <string name="Warning">Warning</string>
+    <string name="Your_Device_is_not__">Your Device is not supported.\nCurrently supports Galaxy Series only.\nSooner or later will support.</string>
+    <string name="Start">Start</string>
+    <string name="Save">Save</string>
+    <string name="Unclassified">Unclassified</string>
+    <string name="Type">Type</string>
+    <string name="Name">Name</string>
+    <string name="All">All</string>
+    <string name="Input_category_name">Input category name.</string>
+    <string name="EXIT">EXIT</string>
+    <string name="TAGCOLOR">Tag Color</string>
+    <string name="Add">Add</string>
+    <string name="File_name_exists">File name exists</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Add_New_Canvas">Add New Canvas</string>
+    <string name="Add_New_Category">Add New Category</string>
+    <string name="Can_not_be_changed">Can not be changed</string>
+    <string name="Can_not_be_deleted">Can not be deleted</string>
+    <string name="Working_on_the_current_page_has_been_deleted">Working on the current page has been deleted.\nIf you go back, program is finish</string>
+    <string name="Change">Change</string>
+    <string name="Rename">Rename</string>
+    <string name="Exists">Exists</string>
+    <string name="Move">Move</string>
+    <string name="Move_Category">Move Category</string>
+    <string name="No_File">No File</string>
+    <string name="Background_Setting">Background Setting</string>
+    <string name="Input_transparency_value">Input transparency value\n0 % ~ 100 %</string>
+    <string name="Apply">Apply</string>
+    <string name="Transparency">Transparency</string>
+    <string name="first_page">first page</string>
+    <string name="Note_Setting">Note Setting</string>
+    <string name="During_storage_so_you_can_not_go_back">During storage, so you can not go back.</string>
+</resources>

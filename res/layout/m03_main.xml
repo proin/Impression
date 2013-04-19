@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/m03_main_titlemenu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/m03_main_menubar_bg" >
+
+        <ImageButton
+            android:id="@+id/m03_main_Button_returnmain"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/m03_main_menubar_backbtn_xml" />
+
+        <TextView
+            android:id="@+id/m03_main_TextView_currentdir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="TextView"
+            android:textColor="#FFFFFFFF" />
+
+        <ImageButton
+            android:id="@+id/m03_main_ImageButton_exit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/m03_main_menubar_exitbtn_xml" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/m03_main_filelistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m03_main_titlemenu" >
+    </ListView>
+
+</RelativeLayout>

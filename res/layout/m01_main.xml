@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/menu_mainmenulayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/m01_main_menubar_bg" >
+
+        <ImageButton
+            android:id="@+id/m01_main_Button_returnmain"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/m02_main_menubar_exitbtn_xml" />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/menu_scrollbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/menu_mainmenulayout"
+        android:clipToPadding="false"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/menu_scrollbar_inner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/m01_main_layout_category"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <RelativeLayout
+                    android:id="@+id/menu_categorylist_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/m01_main_list_topmenu_bg" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="center"
+                        android:text="@string/All"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+
+                    <ImageButton
+                        android:id="@+id/menu_categoryaddbtn"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/m01_main_list_plusbtn_xml" />
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@+id/menu_categorylist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/m01_main_list_bg"
+                    android:scrollbars="none" >
+                </ListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/m01_main_layout_filelist"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/menu_filelist_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" >
+
+                    <TextView
+                        android:id="@+id/menu_categorynametxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <ImageButton
+                        android:id="@+id/menu_fileaddbtn"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/m01_main_list_plusbtn_xml" />
+
+                    <ImageView
+                        android:id="@+id/m01_menu_filellist_menu_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#FF666666" />
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@+id/menu_filelist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none" >
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

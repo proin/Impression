@@ -1,0 +1,48 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="FILE_TYPE">
+        <item>Canvas</item>
+        <item>NOTE</item>
+        <!-- <item>PDF</item> -->
+    </string-array>
+    <string-array name="menulist_longclick">
+        <item>Open</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="m02_main_backgroundsetting">
+        <item>Load</item>
+        <item>Rotate</item>
+        <item>Hide/View</item>
+        <item>Set Transparency</item>
+    </string-array>
+    <string-array name="m02_main_notesetting">
+        <item>Add Page</item>
+        <item>Delete Page</item>
+        <item>Page List</item>
+    </string-array>
+    <string-array name="main_import_menu">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </string-array>
+    <string-array name="categorylist_longclick">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="Filelist_longclick">
+        <item>Rename</item>
+        <item>Move Category</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="MANUFACTURER">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="MODEL_GallaxyNote">
+        <item>SHV-E160K</item>
+        <item>SHV-E160S</item>
+        <item>SHV-E160L</item>
+    </string-array>
+    <string-array name="MODEL_Default">
+        <item name="GallaxyS">SHW-M110S</item>
+    </string-array>
+
+</resources>

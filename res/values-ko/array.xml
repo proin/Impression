@@ -1,0 +1,48 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="FILE_TYPE">
+        <item>캔버스</item>
+        <item>노트</item>
+        <!-- <item>PDF</item> -->
+    </string-array>
+    <string-array name="menulist_longclick">
+        <item>열기</item>
+        <item>삭제</item>
+    </string-array>
+    <string-array name="m02_main_backgroundsetting">
+        <item>불러오기</item>
+        <item>회전시키기</item>
+        <item>보이기/숨기기</item>
+        <item>투명도 설정</item>
+    </string-array>
+    <string-array name="m02_main_notesetting">
+        <item>페이지 추가</item>
+        <item>페이지 삭제</item>
+        <item>페이지 목록 보기</item>
+    </string-array>
+    <string-array name="main_import_menu">
+        <item>갤러리</item>
+        <item>카메라</item>
+    </string-array>
+    <string-array name="categorylist_longclick">
+        <item>이름바꾸기</item>
+        <item>삭제</item>
+    </string-array>
+    <string-array name="Filelist_longclick">
+        <item>이름바꾸기</item>
+        <item>카테고리 변경</item>
+        <item>삭제</item>
+    </string-array>
+    <string-array name="MANUFACTURER">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="MODEL_GallaxyNote">
+        <item>SHV-E160K</item>
+        <item>SHV-E160S</item>
+        <item>SHV-E160L</item>
+    </string-array>
+    <string-array name="MODEL_Default">
+        <item name="GallaxyS">SHW-M110S</item>
+    </string-array>
+
+</resources>
